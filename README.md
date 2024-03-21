@@ -8,6 +8,11 @@
 ### Em seguida é efetuado a transformação com calculo do total_vendas 
 ### E por fim o carregamento dos dados em um banco Postgres na Nuvem(Render).
 
+## Arquivos de ETL
+
+### O arquivo pipeline_00 é o pipeline original da ETL, cumprindo o papel com exito,
+### O arquivo pipeline_01 é o pipeline com tratamento para diferentes tipos de arquivo, seja um CSV, JSON ou Parquet.
+
 ## Tecnologias utilizadas
 
 ### Pyenv e Poetry para padrões de projeto e gerenciamento de dependencias,
